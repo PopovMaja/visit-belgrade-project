@@ -33,6 +33,9 @@ container {
 .second-card {
   background-color: rgb(248, 248, 248);
 }
+.third-card {
+  background-color: white;
+}
 .text-center {
   text-align: center;
 }
@@ -58,6 +61,14 @@ container {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+}
+.photo-gallery {
+  margin: 30px 0;
+}
+.row-one,
+.row-two {
+  grid-gap: 30px !important;
+  padding: 15px 0;
 }
 section {
   max-width: 100%;
